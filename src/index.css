@@ -1,0 +1,46 @@
+html, body{
+  background-color: #21232a;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.3rem;
+  padding: 30px;
+}
+
+button{
+  color: tomato;
+  background-color: teal;
+  border-radius: 0.5rem;
+  border:1px solid black;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin: auto;
+  font-size: 1.2rem;
+  width: 6rem;
+}
+
+input{
+  width: 100%;
+  padding: 1rem;
+  color: gray;
+  font-size: 1.3rem;
+
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+}
+.card{
+  width: 15%;
+  margin: 0.5rem 1rem;
+  border: black solid 1px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+
+}
+.cards img{
+  width: 100%;
+}
+.card p{
+  font-size: 0.8rem;
+}
